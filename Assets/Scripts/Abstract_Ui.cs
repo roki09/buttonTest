@@ -33,11 +33,6 @@ public abstract class Abstract_Ui : MonoBehaviour
         }
     }
 
-    public async Task CloseScreen()
-    {
-       await Close();
-    }
-
     private async Task Close()
     {
         foreach (var image in _allImage)
@@ -47,4 +42,10 @@ public abstract class Abstract_Ui : MonoBehaviour
         await Task.Delay(200);
         gameObject.SetActive(false);
     }
+
+    public async Task CloseScreen()
+    {
+       await Close();
+    }
+
 }
