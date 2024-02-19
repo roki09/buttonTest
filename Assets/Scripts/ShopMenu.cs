@@ -6,6 +6,7 @@ public class ShopMenu : Abstract_Ui
 {
     [SerializeField] private AbstractButton exit;
     [SerializeField] private Abstract_Ui _mainMenu;
+    [SerializeField] private BuyLogic buyLogic;
 
     public override void StartScreen()
     {

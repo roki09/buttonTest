@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CoinsScore : MonoBehaviour
 {
 
-    [SerializeField] private int _coins = 100;
+    [SerializeField] private static int _coins = 100;
     [SerializeField] private TextMeshProUGUI _text;
 
     private void Start()
