@@ -6,7 +6,6 @@ using UnityEngine.EventSystems;
 public class Pot : Item
 {
     [SerializeField] private string _name;
-    [SerializeField] private int _cost;
 
     public Pot(string name, int value, int cost) 
     {

@@ -8,6 +8,6 @@ public class CharactersticTablo : MonoBehaviour
     [SerializeField] private TextMeshProUGUI text;
     private void Awake()
     {
-        ServiceLocator.RegisterService(text);
+        text = GetComponent<TextMeshProUGUI>();
     }
 }

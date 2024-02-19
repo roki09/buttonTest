@@ -6,4 +6,5 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     public int _value;
+    public int _cost;
 }

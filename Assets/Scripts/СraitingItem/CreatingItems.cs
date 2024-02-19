@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class BuyLogic : MonoBehaviour
+public class CreatingItems : MonoBehaviour
 {
     [SerializeField] private Image _image;
     private Image currentImage;
